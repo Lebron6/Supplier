@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ocean.supplier">
+    <!-- Required -->
+    <permission
+        android:name="com.ocean.supplier.permission.JPUSH_MESSAGE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ida_supplier"
+        android:label="@string/app_name"
+        android:name="com.ocean.supplier.app.SophixStubApplication"
+        android:roundIcon="@drawable/ida_supplier"
+        android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
+        android:theme="@style/BaseTheme"
+       >
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.ocean.supplier.fileProvider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <meta-data android:name="com.amap.api.v2.apikey" android:value="d36e408e59e8f13bd78645cfc090e191"></meta-data>
+        <service android:name="com.amap.api.location.APSService"/>
+        <activity
+            android:name="com.amap.api.navi.AmapRouteActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:launchMode="singleInstance"
+            android:configChanges="orientation|keyboardHidden|screenSize|navigation" />
+        <activity android:name=".activity.PasswordLoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="io.github.xudaojie.qrcodelib.CaptureActivity"/>
+        <activity android:name="com.ocean.supplier.activity.MainActivity"  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.ocean.supplier.activity.WebViewActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DispatchActivity"/>
+        <activity android:name="com.ocean.supplier.activity.OperationTrackActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DispatchChoseCarActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DispatchChoseDriverActivity"/>
+        <activity android:name="com.ocean.supplier.activity.CompanyRegisterActivity"/>
+        <activity android:name="com.ocean.supplier.activity.CompanyRegisterCommitSuccessActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DriverManagementActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DriverEditActivity"/>
+        <activity android:name="com.ocean.supplier.activity.DriverSelectActivity"/>
+        <activity android:name="com.ocean.supplier.activity.AddDriverActivity"/>
+        <activity android:name="com.ocean.supplier.activity.CarManagementActivity"/>
+        <activity android:name="com.ocean.supplier.activity.CarEditActivity"/>
+        <activity android:name="com.ocean.supplier.activity.AddCarActivity"/>
+        <activity android:name="com.ocean.supplier.activity.ClipImageActivity"/>
+        <activity android:name="com.ocean.supplier.activity.StaffManagementActivity"/>
+        <activity android:name="com.ocean.supplier.activity.AddStaffActivity"/>
+        <activity android:name="com.ocean.supplier.activity.ForgetPasswordActivity"/>
+        <activity android:name="com.ocean.supplier.activity.AcceptanceOfBillLadingActivity"/>
+        <activity android:name="com.ocean.supplier.activity.ToBeAcceptDetailsActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SelectBillCarOneActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SelectBillCarTwoActivity"/>
+        <activity android:name="com.ocean.supplier.activity.MultiCarDistributionOfGoodsActivity"/>
+        <activity android:name="com.ocean.supplier.activity.ReceivingOrderSuccessActivity"/>
+        <activity android:name="com.ocean.supplier.activity.ContractManagementAvtivity"/>
+        <activity android:name="com.ocean.supplier.activity.ContractDetailsActivity" android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.ocean.supplier.activity.QuotationActivity"  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.ocean.supplier.activity.SettingActivity"/>
+        <activity android:name="com.ocean.supplier.activity.PersonalDataActivity"/>
+        <activity android:name="com.ocean.supplier.activity.BindNewPhoneActivity"/>
+        <activity android:name="com.ocean.supplier.activity.BindNewPhoneGetPhoneCodeActivity"/>
+        <activity android:name="com.ocean.supplier.activity.BindNewEmailActivity"/>
+        <activity android:name="com.ocean.supplier.activity.BindNewEmailGetCodeActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SettingNewPasswordActivity"/>
+        <activity android:name="com.ocean.supplier.activity.CompanyInfoActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SupplierManagementActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SupplierEditActivity"/>
+        <activity android:name="com.ocean.supplier.activity.SettingSupplierActivity"/>
+        <activity android:name="com.ocean.supplier.activity.OperationSheetManagementActivity"/>
+        <activity android:name="com.ocean.supplier.activity.OperaGoodsQutationActivity"  android:configChanges="orientation|screenSize|keyboardHidden"/>
+        <activity android:name="com.ocean.supplier.activity.OperaDetailsActivity"  android:configChanges="orientation|screenSize|keyboardHidden"/>
+
+        <!-- User defined.  For test only  用户自定义接收消息器,3.0.7开始支持,目前新tag/alias接口设置结果会在该广播接收器对应的方法中回调-->
+        <!--since 3.3.0 接收JPush相关事件-->
+        <receiver android:name=".jpush.PushMessageReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="cn.jpush.android.intent.RECEIVE_MESSAGE" />
+                <category android:name="com.ocean.supplier" />
+            </intent-filter>
+        </receiver>
+        <!-- since 3.3.0 Required SDK 核心功能-->
+        <!-- 可配置android:process参数将PushService放在其他进程中 -->
+        <!--User defined.  For test only 继承自cn.jpush.android.service.JCommonService-->
+        <service android:name=".jpush.PushService"
+            android:process=":pushcore">
+            <intent-filter>
+                <action android:name="cn.jiguang.user.service.action" />
+            </intent-filter>
+        </service>
+        <meta-data android:name="JPUSH_CHANNEL" android:value="developer-default"/>
+        <meta-data android:name="JPUSH_APPKEY" android:value="9afc6dd2ad4f53aa5360d4bc" /> <!--  </>值来自开发者平台取得的AppKey-->
+
+        <meta-data
+            android:name="com.taobao.android.hotfix.IDSECRET"
+            android:value="333341780-1" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.APPSECRET"
+            android:value="5ba01ff2869141c58b3f8790980e685c" />
+        <meta-data
+            android:name="com.taobao.android.hotfix.RSASECRET"
+            android:value="MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDkkbdbcM4CGbZJo/lbZ20+4HoAQnoqKkyrABJEdY66623b/GhVSIsN/fROqsCNbjpS+cytL1zNH/VCEJb+TiTy/wlaZengditkcG5gx71lfCNMxrErE/epqj5WjscX2szwl/zsQk0Shkp0s3T/U91+ZV2/m4SRC9M3lVcM249mNFsKtr36ovgNiBRonrTROAtksAibuv67M7+3ayEhRGawpgKSsfJ0gHzqpPg4BtAiD54WgZu4V3Sed5VicE06UNYKaLvw5GJ0P1jpoD5oKKmgu6+3b9NVXpdWwSLDeHN1M4V4VWbuJ4FXk7Cziy6lL+c7ZzFv/77mCzkvdzvVTTfTAgMBAAECggEBAL4H5DDTBYO7itGI0a1LvQkUqnoCyvy5dEqLYaSnNEZ1rD3EiZ22FV5JsE+jKTms1jLcWm32PaqREmCd2FuP7qpUnZsZtiuXM5Zq32n5Rp7UaajQXMYa8MKPtwpR5HcRw2eYhYCL0vY+zjJebTxGppUKg7nk+394HGBO+jPHa16lP+dUFkXGw5vt2zr/P6ffikgl3A8yvmnsoUCKHw0TyCI8HaKeADPNP+SQ9W5AEt5zAKBb7xCg3wef6cRX3KkNOTQwLHGwpCTXmkLI5Mr15Ds7uACpKQ6R7TLVwWgjZNK2a6kCgVhSu62pZay+JtxypC+qC1F2sGYmStFqW/CpPRECgYEA/1VF4V+8d5LbVLf0/DyEoXEO+B75loIUzFDCIIO+Rb2eR8EZVUkGZJtZi9czfoEeUIb9W29DGIhDV575v2mkuyo4DZqR55ASY/2ud/YiTAcS9jhia/J71jCO4JSCmSill5drqB90CJGQ17iPUJ5UjHaNnw54CaP8ja5t2fFJMwsCgYEA5SqMOOLpgJfpGnCUZZHL29dymyBi8YxxCjOPF8NkwVUv9TJ81CHcqKT9JgdQgZ68JmSwN2mM3XVr5XOoijY9/il+CWM0aBTbSgkVPsHY0GUW2m4ZkbqvKuCxjhOhgf9V6KgatJM/XtFd4a+SN4mLV9OKZR1QgLslJadSpHKbC1kCgYABUxvts2Vy6Vwh8GJg/J9jhwag2uhIk5wwAys+p/BQxE8R6DqNareRxgyM4SzvNxRFLq4Zz1X1xp8y0SxSheXI4ssvpuGi5ehyhFpnXOuIoXDDvj8keDmUPuQ+3gZfbQqO4sY4NRGRCdBKjjaQIIInyGWrsZOF2UfyJDmFq+7JSQKBgHKyXeYm49mBrqCWEh/X3eFVLr4ncn4U3YrOjWLGX8pHua4OK938aLVbhnwfExMdAGxy3qONR3ybxXnc7lDmnxZza+qE5XjmX27ppuF3Ie4DenGuw0tl1UAvn45Nkvs+cZ/1axBP1lq9jTBksFjtlXlKnizHhEA56nizCzDVT3ZZAoGAIL3WGUmtbHORqnUVkAWTiTrmIUOQTbW0ghO+WYKH2GuNbrzVkvU0GOaLD3GDzYa4WpVJ6y9wQ1lpwk9QVJBlvKlCFPtKhELSkEKz38PSQ8BpgV//ikBoa077fY47AEGrJESDUY1Rd13pnzwC+fNW8lIPvtAPUfLQU8unbGjot04=" />
+
+    </application>
+
+</manifest>

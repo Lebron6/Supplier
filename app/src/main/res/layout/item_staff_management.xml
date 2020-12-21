@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+    <CheckBox
+        android:layout_centerVertical="true"
+        android:id="@+id/cb_select"
+        style="@style/SelectAllTheme"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/image_user"
+        android:layout_marginLeft="20dp"
+        android:layout_width="50dp"
+        android:layout_height="50dp" />
+    <RelativeLayout
+        android:paddingTop="7dp"
+        android:paddingBottom="7dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/tv_staff_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IT部-张三"
+            android:textColor="#ff2b2c44"
+            android:textSize="16sp"
+            />
+        <TextView
+            android:id="@+id/tv_updata_time"
+            android:layout_alignParentBottom="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="更新时间：2019-06-07 12:21"
+            android:textColor="#ff9c9db3"
+            android:textSize="12sp"
+            />
+    </RelativeLayout>
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="315dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:gravity="center"
+    android:background="@drawable/item_bg_bill"
+    android:layout_height="237dp">
+    <ImageView
+        android:background="@mipmap/icon_checklistv"
+        android:layout_width="72dp"
+        android:layout_height="72dp" />
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="手机号修改成功"
+        android:textColor="#ff2b2c44"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tv_sure"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="确认"
+        android:textColor="#ff3d68eb"
+        android:textSize="16sp"
+        />
+</LinearLayout>

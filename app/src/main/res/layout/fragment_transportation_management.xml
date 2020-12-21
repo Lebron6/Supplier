@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEditTextLine"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:background="#436DF1"
+        android:layout_height="@dimen/toolbar_margin_top"/>
+    <ScrollView
+        android:layout_marginBottom="10dp"
+        android:layout_width="match_parent"
+        android:scrollbars="none"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:orientation="vertical"
+                android:background="#436DF1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="15dp"
+                    android:textStyle="bold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="运输管理"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="24sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:background="@drawable/item_bg_bill"
+                android:layout_marginTop="60dp"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                >
+                <LinearLayout
+                    android:id="@+id/layout_contract_management"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@mipmap/iocn_contract"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14sp"
+                        android:text="合同管理"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout_driver_management"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:background="@mipmap/icon_driver"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14sp"
+                        android:text="司机管理"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout_car_management"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:background="@mipmap/icon_vehicle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:textSize="14sp"
+                        android:text="车辆管理"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/layout_pol"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="60dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@drawable/item_bg_bill">
+                <LinearLayout android:id="@+id/layout_Accept_lading"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="14sp"
+                        android:text="提单受理"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout_opera_managemnet"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="14sp"
+                        android:text="操作单查询"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </RelativeLayout>
+            <LinearLayout
+                android:visibility="gone"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+               >
+                <LinearLayout
+                    android:id="@+id/layout_I_shipped_it"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="14sp"
+                        android:text="我发运的"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout_I_took_it"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="14sp"
+                        android:text="我收的"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+                <LinearLayout
+                    android:id="@+id/layout_Bill_of_lading_management"
+                    android:orientation="vertical"
+                    android:gravity="center"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:textSize="14sp"
+                        android:text="提单管理"
+                        android:textColor="@color/colorMainBlack"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

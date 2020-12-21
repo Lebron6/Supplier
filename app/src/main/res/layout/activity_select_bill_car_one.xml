@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+android:id="@+id/layout_top"
+        android:visibility="gone"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/layout_bg_gray"
+        android:orientation="vertical">
+
+        <LinearLayout
+android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_one"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/bg_circle_main"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="10dp"
+                    android:text="选择提货车辆"
+                    android:textColor="#ff3d68eb"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="89dp"
+                android:layout_height="2dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/tv_two"
+                android:layout_toRightOf="@+id/tv_one"
+                android:background="@color/colorEditText" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tv_two"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:background="@drawable/bg_circle_gray"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="@color/colorMainBlack"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="17dp"
+                    android:layout_marginTop="10dp"
+                    android:text="货物分配"
+                    android:textColor="#ff9c9db3"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+        </LinearLayout>
+        <RelativeLayout
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="货物/车辆可载总重量(kg)"
+                android:textColor="#ff585974"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tv_weigth"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="1000/1000"
+                android:textColor="#ff2b2c44"
+                android:textSize="18sp"
+                />
+        </RelativeLayout>
+        <RelativeLayout  android:visibility="gone"
+            android:layout_marginTop="10dp"
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="货物/车辆可载总体积(m³)"
+                android:textColor="#ff585974"
+                android:textSize="16sp"
+                />
+            <TextView
+                android:id="@+id/tv_tj"
+                android:layout_alignParentRight="true"
+                android:layout_width="wrap_content"
+                android:layout_height="22dp"
+                android:text="1000/1000"
+                android:textColor="#ff2b2c44"
+                android:textSize="18sp"
+                />
+        </RelativeLayout>
+    </LinearLayout>
+<com.liaoinstan.springview.widget.SpringView
+    android:id="@+id/sv_list"
+    android:layout_above="@+id/btn_login"
+    android:layout_below="@+id/layout_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+</com.liaoinstan.springview.widget.SpringView>
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_marginBottom="20dp"
+        android:layout_alignParentBottom="true"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="40dp"
+        android:background="@drawable/btn_bg_theme"
+        android:gravity="center"
+        android:text="下一步"
+        android:textColor="@color/colorWhite"
+        android:textSize="16sp" />
+</RelativeLayout>
+</LinearLayout>

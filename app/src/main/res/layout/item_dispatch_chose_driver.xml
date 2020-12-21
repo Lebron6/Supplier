@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_driver_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="南京联合物流有限公司"
+                android:textColor="@color/colorGray"
+                android:textSize="18sp"
+                />
+         <View
+             android:layout_alignParentBottom="true"
+             android:background="@color/colorEditTextLine"
+             android:layout_width="match_parent"
+             android:layout_height="0.5dp"/>
+    </RelativeLayout>
+</LinearLayout>

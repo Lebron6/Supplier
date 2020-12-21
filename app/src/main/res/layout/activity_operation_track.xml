@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+        <include layout="@layout/titlebar" android:id="@+id/titlebar"/>
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_below="@+id/titlebar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+<LinearLayout
+    android:id="@+id/layout_path"
+    android:layout_marginTop="100dp"
+    android:background="@drawable/item_bg_bill"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:orientation="vertical"
+    android:layout_alignParentBottom="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:id="@+id/layout_show"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"></LinearLayout>
+        <View
+            android:background="@color/colorEditTextLine"
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"/>
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginTop="5dp"
+            android:id="@+id/rv_list"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+</LinearLayout>
+
+</RelativeLayout>

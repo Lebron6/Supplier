@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="52dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/layout_top"
+            android:layout_width="match_parent"
+            android:layout_height="22dp"
+            >
+
+            <TextView
+                android:id="@+id/tv_status"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="40dp"
+                android:layout_toLeftOf="@+id/iv_cir"
+                android:text="干线途中"
+                android:textColor="#ff2b2c44"
+                android:textSize="16sp" />
+
+            <ImageView
+                android:id="@+id/iv_cir"
+
+
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerInParent="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/bg_circle_main" />
+
+            <TextView
+                android:id="@+id/tv_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="40dp"
+                android:layout_toRightOf="@+id/iv_cir"
+                android:text="2020/04/28  12:45"
+                android:textColor="#ff9c9db3"
+                android:textSize="12sp" />
+        </RelativeLayout>
+<RelativeLayout
+    android:layout_below="@+id/layout_top"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+
+            android:layout_centerInParent="true"
+            android:background="@color/colorEditText" /></RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

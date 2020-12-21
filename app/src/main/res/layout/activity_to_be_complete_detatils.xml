@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+
+    <RelativeLayout
+        android:background="@color/colorEditTextLine"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:gravity="center_vertical"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:id="@+id/layout_one"
+            android:background="@color/colorWhite"
+            android:layout_width="match_parent"
+            android:layout_height="77dp">
+<LinearLayout
+
+    android:gravity="center_vertical"
+    android:layout_centerVertical="true"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="25dp"
+        android:text="南京联合物流有限公司"
+        android:textColor="#ff2b2c44"
+        android:textSize="18sp"
+        />
+    <LinearLayout
+        android:id="@+id/layout_center"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/tv_company_name"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="调度时间："
+            android:textColor="#ff9c9db3"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="2019/06/27 12:45"
+            android:textColor="#ff2b2c44"
+            android:textSize="12sp"
+            />
+    </LinearLayout>
+</LinearLayout>
+            <ImageView
+                android:id="@+id/iv_call"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:background="@mipmap/icon_call"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </RelativeLayout>
+        
+        <RelativeLayout
+            android:id="@+id/layout_three"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:background="@drawable/item_bg_bill"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center_vertical"
+            android:layout_below="@+id/layout_one"
+            android:layout_width="match_parent"
+            android:layout_height="72dp">
+
+<LinearLayout
+
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:layout_alignParentLeft="true"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/tv_car_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="调度车辆：苏E1231"
+        android:textColor="#ff2b2c44"
+        android:textSize="16sp"
+        />
+    <TextView
+        android:id="@+id/tv_driver"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:text="司机：张三"
+        android:textColor="#ff585974"
+        android:textSize="14sp"
+        />
+</LinearLayout>
+            <TextView
+                android:id="@+id/tv_updata_car"
+                android:gravity="center"
+                android:textColor="@color/colorMain"
+                android:layout_centerVertical="true"
+                android:layout_alignParentRight="true"
+                android:text="修改车辆"
+                android:background="@drawable/layout_bg_gray"
+                android:layout_width="96dp"
+                android:layout_height="36dp" />
+        </RelativeLayout>
+      <android.support.v7.widget.RecyclerView
+          android:paddingBottom="10dp"
+          android:layout_above="@+id/layout_button"
+          android:layout_below="@+id/layout_three"
+          android:id="@+id/rv_details"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        <LinearLayout
+            android:id="@+id/layout_button"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/layout_c"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorWhite"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp">
+
+            <LinearLayout
+                android:id="@+id/layout_see_map"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_weight="1"
+                android:background="@drawable/layout_bg_gray"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/icon_location" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="查看提货地址"
+                    android:textColor="@color/colorMain"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_accept"
+                android:layout_width="0dp"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_bg_theme"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@mipmap/icon_adopt" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:text="接单"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="16sp" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

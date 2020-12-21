@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<RelativeLayout
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/titlebar"  />
+    <LinearLayout
+        android:layout_marginRight="20dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="32dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/tv_edit"
+            android:layout_marginRight="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="编辑车辆"
+            android:textColor="#ff9c9db3"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+</RelativeLayout>
+    <RelativeLayout
+        android:layout_marginTop="1dp"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.liaoinstan.springview.widget.SpringView
+            android:id="@+id/sv_pur"
+            android:layout_above="@+id/layout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_car"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+        </com.liaoinstan.springview.widget.SpringView>
+
+
+        <LinearLayout
+            android:id="@+id/layout_bottom"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorWhite">
+
+            <TextView
+                android:id="@+id/tv_keep_and_go"
+                android:gravity="center"
+                android:textColor="@color/colorMain"
+                android:text="查看供应商调度"
+                android:layout_width="208dp"
+                android:layout_height="44dp"
+                android:background="@drawable/layout_bg_gray" />
+            <Button
+                android:id="@+id/btn_add_car"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="92dp"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/btn_bg_theme"
+                android:gravity="center"
+                android:text="添加车辆"
+                android:textColor="@color/colorWhite"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

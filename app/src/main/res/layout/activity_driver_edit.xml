@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlebar" />
+    <RelativeLayout
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_driver"
+            android:layout_above="@+id/layout_bottom"
+            android:paddingBottom="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></android.support.v7.widget.RecyclerView>
+
+      <RelativeLayout
+          android:gravity="center_vertical"
+          android:orientation="horizontal"
+          android:id="@+id/layout_bottom"
+          android:background="@color/colorWhite"
+          android:layout_alignParentBottom="true"
+          android:layout_width="match_parent"
+          android:layout_height="50dp">
+          <CheckBox
+              android:layout_centerVertical="true"
+              android:id="@+id/cb_select_all"
+              style="@style/SelectAllTheme"
+              android:layout_marginLeft="15dp"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content" />
+          <TextView   android:layout_centerVertical="true"
+              android:layout_marginLeft="10dp"
+              android:layout_toRightOf="@+id/cb_select_all"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="全选"
+              android:textColor="#ff2b2c44"
+              android:textSize="14sp"
+              />
+          <LinearLayout   android:layout_centerVertical="true"
+              android:gravity="center_vertical"
+              android:layout_marginRight="15dp"
+              android:layout_alignParentRight="true"
+              android:orientation="horizontal"
+              android:layout_width="wrap_content"
+              android:layout_height="match_parent">
+
+              <Button
+                  android:id="@+id/btn_cancel"
+                  android:layout_centerVertical="true"
+                  style="?android:attr/borderlessButtonStyle"
+                  android:layout_width="90dp"
+                  android:layout_height="30dp"
+                  android:layout_marginLeft="15dp"
+                  android:background="@drawable/tv_bg_half_gray"
+                  android:gravity="center"
+                  android:text="取消操作"
+                  android:textColor="@color/colorMainBlack"
+                  android:textSize="13sp" />
+
+              <Button
+                  android:id="@+id/btn_delete"
+                  android:layout_centerVertical="true"
+                  style="?android:attr/borderlessButtonStyle"
+                  android:layout_width="68dp"
+                  android:layout_height="30dp"
+                  android:layout_marginLeft="15dp"
+                  android:background="@drawable/tv_bg_half_orange"
+                  android:gravity="center"
+                  android:text="删除"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="13sp" />
+
+              <Button
+                  android:id="@+id/btn_jy"
+                  android:layout_centerVertical="true"
+                  style="?android:attr/borderlessButtonStyle"
+                  android:layout_width="68dp"
+                  android:layout_height="30dp"
+                  android:layout_marginLeft="15dp"
+                  android:background="@drawable/tv_bg_half_orange"
+                  android:gravity="center"
+                  android:text="禁用"
+                  android:textColor="@color/colorWhite"
+                  android:textSize="13sp" />
+          </LinearLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

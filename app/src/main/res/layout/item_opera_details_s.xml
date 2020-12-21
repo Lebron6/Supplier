@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="105dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="15dp"
+        android:orientation="vertical"
+        android:paddingLeft="15dp"
+        android:paddingTop="5dp"
+        android:paddingRight="15dp"
+        android:paddingBottom="5dp">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txt_s"
+                android:layout_width="22dp"
+                android:layout_height="22dp"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/btn_bg_yellow"
+                android:gravity="center"
+                android:text="收"
+                android:textColor="@color/colorWhite"
+                android:textSize="10sp" />
+
+            <TextView
+                android:id="@+id/tv_name"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="上海五菱汽车"
+                android:textColor="#ff2b2c44"
+                android:textSize="16sp" />
+        </LinearLayout>
+        <TextView
+            android:id="@+id/tv_info"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="上海市浦东区海滩路路776号"
+            android:textColor="#ff9c9db3"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_user_phone"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="张三，13895642156"
+            android:textColor="#ff9c9db3"
+            android:textSize="14sp"
+            />
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_marginTop="3dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="要求到达时间：202010.23"
+            android:textColor="#ff9c9db3"
+            android:textSize="14sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorEditTextLine" />
+</LinearLayout>

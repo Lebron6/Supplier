@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_marginRight="15dp"
+    android:layout_marginLeft="15dp"
+    android:layout_marginTop="10dp"
+
+    android:paddingBottom="15dp"
+    android:paddingLeft="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/item_bg_bill"
+    android:layout_width="match_parent"
+    android:layout_height="112dp">
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="32dp">
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="流水号："
+                android:textColor="#ff9c9db3"
+                android:textSize="12sp"
+                />
+            <TextView
+                android:id="@+id/tv_lsh"
+                android:layout_width="wrap_content"
+                android:layout_height="17dp"
+                android:text="HT1316516548"
+                android:textColor="#ff2b2c44"
+                android:textSize="12sp"
+                />
+            <ImageView
+                android:id="@+id/iv_copy"
+                android:layout_marginLeft="5dp"
+                android:background="@mipmap/icon_copy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+<TextView
+    android:id="@+id/tv_status"
+    android:gravity="center"
+    android:textColor="@color/colorMain"
+    android:text="进行中"
+    android:background="@drawable/bg_contarct_half_shape_blue"
+    android:layout_alignParentRight="true"
+    android:layout_width="72dp"
+    android:layout_height="30dp" />
+    </RelativeLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+        <ImageView
+            android:background="@mipmap/icon_pdf"
+            android:layout_width="30dp"
+            android:layout_height="40dp" />
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_marginLeft="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="45dp">
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="托运方："
+                    android:textColor="#ff9c9db3"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_cyf"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="南京联合物流有限公司"
+                    android:textColor="#ff2b2c44"
+                    android:textSize="14sp"
+                    />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="有效期："
+                    android:textColor="#ff9c9db3"
+                    android:textSize="14sp"
+                    />
+                <TextView
+                    android:id="@+id/tv_yxq"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="2019/06/27 — 2019/07/28"
+                    android:textColor="#ff2b2c44"
+                    android:textSize="14sp"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

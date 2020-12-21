@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<RelativeLayout
+    android:id="@+id/layout_to_next"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="60dp">
+<ImageView
+    android:id="@+id/iv_bg"
+    android:layout_centerVertical="true"
+    android:background="@mipmap/tab_waybill_sel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+    <LinearLayout
+        android:layout_toLeftOf="@+id/iv_right"
+        android:layout_marginLeft="20dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_bg"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="17dp"
+            android:text="提货单号"
+            android:textColor="#ff9c9db3"
+            android:textSize="12sp"
+            />
+        <TextView
+            android:id="@+id/tv_list_num"
+            android:layout_width="wrap_content"
+            android:layout_height="19dp"
+            android:text="13244687"
+            android:textColor="#ff2b2c44"
+            android:textSize="16sp"
+            />
+
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/iv_right"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@mipmap/icon_getinto"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <View
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorEditTextLine"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+</RelativeLayout>
+
+</LinearLayout>

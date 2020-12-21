@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorEditTextLine"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/titlebar"/>
+    <LinearLayout
+        android:layout_marginTop="@dimen/toolbar_margin_top"
+        android:layout_alignParentRight="true"
+        android:layout_width="133dp"
+        android:layout_height="40dp"
+
+        android:layout_marginRight="15dp"
+
+        android:paddingLeft="4dp"
+        android:paddingTop="8dp"
+        android:paddingRight="4dp"
+        android:paddingBottom="8dp">
+<LinearLayout
+    android:background="@drawable/layout_bg_gray"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <RadioGroup
+            android:id="@+id/rg_type"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rb_f"
+                android:layout_width="62dp"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:checked="true"
+                android:background="@drawable/tab_bill_type"
+                android:textColor="@drawable/text_color_bill_type"
+                android:gravity="center" android:textSize="14sp"
+                android:text="未完成" />
+
+            <RadioButton
+                android:id="@+id/rb_t"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:button="@null"
+                android:background="@drawable/tab_bill_type"
+                android:textColor="@drawable/text_color_bill_type"
+                android:gravity="center"
+                android:textSize="14sp"
+                android:text="已完成" />
+        </RadioGroup>
+</LinearLayout>
+    </LinearLayout>
+</RelativeLayout>
+
+    <com.ocean.supplier.view.CustomViewPager
+        android:id="@+id/vp_bill_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></com.ocean.supplier.view.CustomViewPager>
+</LinearLayout>

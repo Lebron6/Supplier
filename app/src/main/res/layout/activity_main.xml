@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    >
+
+
+    <com.ocean.supplier.view.CustomViewPager
+        android:id="@+id/vp_content"
+        android:layout_below="@+id/view_status_bar"
+        android:layout_above="@+id/rg_group"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <RadioGroup
+        android:id="@+id/rg_group"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_weight="0.7"
+        android:background="@color/colorWhite"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/home"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_home_selector"
+            android:text="首页" />
+
+        <RadioButton
+            android:id="@+id/bill_of_lading"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_transportation_management_selector"
+            android:text="运输管理" />
+
+        <RadioButton
+            android:id="@+id/mine"
+            style="@style/BottomTabStyle"
+            android:drawableTop="@drawable/tab_my_selector"
+            android:text="我的" />
+    </RadioGroup>
+</RelativeLayout>

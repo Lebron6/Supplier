@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77db08b8-829d-4be4-a6fa-8c49af06074f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/AddPackingToBillActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/AddStaffActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/AlreadyAddGoodsListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/AlreadyScanGoodsListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BindNewEmailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BindNewEmailGetCodeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BindNewPhoneActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BindNewPhoneGetPhoneCodeActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ClipImageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CompanyInfoActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CompanyRegisterCommitSuccessActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CustomMarkerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/DispatchActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/HandInReceiptActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/IShippedItActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ITookItActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/LoadingListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ManualBindChosePackageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ManualBindingPackageActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/PasswordLoginActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/PersonalDataActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/QuotationActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/QuotationShppedActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SettingActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SettingNewPasswordActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ShppedDetailsActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SignForActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/AddInitTwoAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/AddPackingToBillAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/AlreadyAddGoodsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/BillCarInfoAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/BindPackageScanAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/ChosePackageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/GridAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/LoadingAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/LoadingResAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/LoadingTitleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/ManualBindPackageAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationResAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationShppedAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationShppedResAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationShppedTitleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/QuotationTitleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/RuleAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/ShippedAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/TookAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/WarehouseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/WillBillOneAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/CityInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnCancelBindImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnItemClickListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnManualClickImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnScanClickImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnTypeSelectImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/callback/OnWarehouseSelectImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/datepicker/CustomDatePicker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/datepicker/DateFormatUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/datepicker/PickerView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/BindNewPhoneSuccessDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/CommonPopWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/RejectBillRemarksDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/RejectContractRemarksDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/RejectShippedRemarksDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/ToVoidBillRemarksDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/ToVoidLoadingRemarksDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/dialog/VerifyPasswordDialog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/AddInitOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/AddInitTwo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/AddressSelectorReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/AlreadyAddGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/Area.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/BillDetailsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/BillList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/BillUpData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/BindWillList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/CompanyInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ContractData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ContractDetails.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ContractList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/GoodList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/HomeData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/InfoInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ItemAddressReq.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/LoadingGoodsList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/LoadingListData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/LoginResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ManualBindData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/OperateTrackData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/PickupData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/QuotationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/RegisterResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ScanGoodInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ScanResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ScanUpdata.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/SettingResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ShppedDetailsData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/ShppedQuotationData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/StaffAddInit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/StaffList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/SupplierList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/TransportationType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/UpLoadResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/UpLoadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/WayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/NShippedFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/NTookFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/ShoppedListFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/YBillTypeFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/YShippedFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/YTookFragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/Folder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/FolderAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/Image.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/ImageCaptureManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/ImageConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/ImageGridAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/PhotoPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/PhotoPickerActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/PhotoPickerIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/PhotoPreviewActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/PhotoPreviewIntent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/SelectModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/photopicker/ViewPagerFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/tools/GlideCircleTransform.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/tools/ListToStringTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/tools/Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/AddressSelector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/ClipView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/ClipViewLayout.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/TypeSelectWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/UpDateIconPop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/ToggleButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/AndroidSpringLooperFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/BaseSpringSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/OrigamiValueConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SimpleSpringListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/Spring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringConfigRegistry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringLooper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringSystem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringSystemListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SpringUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SteppingLooper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/SynchronousLooper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/ui/SpringConfiguratorView.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/facebook/rebound/ui/Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/view/togglebutton/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/anim/push_bottom_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/anim/push_buttom_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/anim/set_up_in.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/anim/set_up_out.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/action_text_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/bg_circle_gray_shollw.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/bg_marker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/bg_orange_button.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/custom_info_bubble.9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/text_indicator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/drawable/tv_bg_half_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout-land/activity_loading_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout-land/activity_quotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout-land/activity_shpped_quotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_add_bill_packing.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_add_staff.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_already_add_goods_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_already_scan_goods_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bind_new_email.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bind_new_email_get_code.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bind_new_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bind_new_phone_get_phone_code.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_clip_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_company_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_dispactch.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_hand_in_receipt.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_i_shipped_it.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_image_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_loading_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_manual_bind_chose_package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_manual_binding.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_personal_data.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_photopicker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_quotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_setting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_setting_new_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_shpped_details.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_shpped_quotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_sign_for.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_way_bill_fill_basic_information.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/custom_info_contents.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/custom_info_window.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/custommarker_activity.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_bind_new_phone.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_date_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_reject_remarks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_tovoid_remarks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/dialog_verify_password.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_add_init_two.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_add_packing_to_bill.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_address.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_already_add_goods.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_bill_car_info.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_bind_package_scan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_camera.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_chose_package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_folder.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_manual_bind_package.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_quotation.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_quotation_res.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_quotation_title.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_rule.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_select_image.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_took.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_warehouse.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_way_bill_one.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_y_shipped.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/photopicker_toolbar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/pop_address_selector_bottom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/update_icon_popu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/layout/window_type.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/menu/menu_picker.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/menu/menu_preview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/badge_sa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/badge_wa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-hdpi/location_marker.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/guanbi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_add.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_enterprise.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_loading.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_location.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_position.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_qr_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_replace.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_six.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_staff_m.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/icon_upload_one.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/text_indicator_normal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xhdpi/text_indicator_pressed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/asv.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/asy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/btn_selected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/btn_unselected.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/default_check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/default_error.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/mipmap-xxhdpi/ic_action_discard.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/attr.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/values/toggle_button_attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../app/src/main/res/xml/file_paths.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillCarInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillCarInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillOfLodingActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/BillOfLodingActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CommitBillSuccessActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CommitBillSuccessActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CompanyRegisterActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/CompanyRegisterActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ContractDetailsActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ContractDetailsActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ContractManagementAvtivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ContractManagementAvtivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ForgetPasswordActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/ForgetPasswordActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/GoodsManagementActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/GoodsManagementActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/LoginActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/RegisterSuccessActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectAddressActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectAddressActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectContractActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectContractActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectSupplierActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/SelectSupplierActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/StaffManagementActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/StaffManagementActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/FillBasicInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/FillBasicInformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/FillDeliveryListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/FillDeliveryListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/SetTransportationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createbill/SetTransportationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createwaybill/WayBillFillBasicInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createwaybill/WayBillFillBasicInformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createwaybill/WayBillFillDeliveryListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/createwaybill/WayBillFillDeliveryListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/creatreturnbox/ReturnBoxFillBasicInformationActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/activity/creatreturnbox/ReturnBoxFillBasicInformationActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/BillAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/BillAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/ContarctStatusAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/ContarctStatusAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/EarlyWarningAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/EarlyWarningAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/FillBillAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/FillBillAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/MainPageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/MainPageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SelectAddressAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SelectAddressAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SelectContractAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SelectContractAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SortAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/SortAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/StaffManagementAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/StaffManagementAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/WaitingProcessingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/adapter/WaitingProcessingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/api/BaseUrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/api/BaseUrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/api/CarApi.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/api/CarApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/SortModelInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/entity/SortModelInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/BillListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/BillListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/BillTypeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/NBillTypeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/ContractStatusFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/ContractStatusFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/HomeFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/HomeFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/MineFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/MineFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/ReturnBoxFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/ReturnBoxFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/TransportationManagementFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/java/com/ocean/dsgoods/fragment/TransportationManagementFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bill_car_info.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bill_car_info.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bill_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_bill_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_commit_bill_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_commit_bill_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_company_register.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_company_register.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_contract_details.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_contract_details.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_fill_basic_information.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_fill_basic_information.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_fill_delivery_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_fill_delivery_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_forget_password.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_forget_password.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_login.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_password_login.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_register_success.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_company_register_commit_success.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_address.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_address.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_contract.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_contract.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_supplier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_select_supplier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_set_transportation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_set_transportation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_setting_loading.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_setting_loading.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/activity_staff_management.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/activity_staff_management.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_mine.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_mine.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_transportation_management.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/fragment_transportation_management.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_bill.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_bill.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_contract_status.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_contract_status.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_fill_bill.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_fill_bill.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_select_contract.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_select_contract.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_select_supplier.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_select_supplier.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/layout/item_staff_management.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/layout/item_staff_management.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/colors.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/dimens.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../app/src/main/res/values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../settings.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view />
+      </state>
+    </system>
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="-422910261">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.opened" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="projectSyncType">
+      <map>
+        <entry key="$USER_HOME$/Desktop/github/amazingcircle" value="PREVIEW" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../ProgramFiles/sdk" />
+    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
+    <property name="android.project.structure.last.selected" value="SDK Location" />
+    <property name="android.project.structure.proportion" value="0.15" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="&lt;template&gt;" type="Applet" default="true" selected="false">
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="77db08b8-829d-4be4-a6fa-8c49af06074f" name="Default Changelist" comment="" />
+      <created>1605862482025</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605862482025</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32995737" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Build Variants" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Build" visible="true" weight="0.32962137" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Gradle" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Palette&#9;" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
